@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Form</title>
+</head>
+<body>
+    <header>
+        <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+    </header>
+<form action="">
+    <div>
+        <fieldset>
+            <legend>Sözleşme Onayı</legend>
+            <input type="checkbox" 
+            name="sözleşme onay" 
+            value="Kabul ediyorum" 
+            id="söz">
+            <label for="söz">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve onaylıyorum.</label>
+            <br>
+            <input type="submit" value="Formu kaydet">
+            <input type="reset" value="Formu temizle">
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            
+            <label for="text1">Form Güvenlik ID</label>
+            <input type="text" id="text1" name="güvenlik id box" placeholder="ID'nizi giriniz...">
+            <br>
+            
+            <label for="text2">Ad</label>
+            <input type="text" id="text2" name="isim">
+            <br>
+            
+            <label for="text3">Soyad</label>
+            <input type="text" id="text3" name="soyisim">
+            <br>
+
+            <label for="text4">Yaş</label>
+            <input type="number" id="text4" name="yaş">
+            <br>
+
+            <label for="text5">email</label>
+            <input type="email" id="text5" name="email">
+            <br>
+
+            <label for="text6">Fotoğraf Ekle</label>
+            <input type="file" value="Dosya Seç" id="text6" name="Eklenen Dosya">
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Dİğer Bilgiler</legend>
+
+            <header> <h4>Buradaki Alanlar Mesleki Deneyimi Kapsar</h4></header>
+            <br>
+            <label for="date">Sektöre Giriş Tarihi</label>
+            <input type="date" name="tarih" id="date">
+            <br><br><br>
+
+            <label>Sektör Deneyimi</label>
+            <br>
+
+            <input type="radio" name="Sektör deneyimi" id="long" value="1-5 yıl">
+            <label for="long">1-5 yıl</label>
+           
+            <input type="radio" name="Sektör deneyimi" id="long" value="6-10 yıl">
+            <label for="long">6-10 yıl</label>
+           
+            <input type="radio" name="Sektör deneyimi" id="long" value="11-15 yıl">
+            <label for="long">11-15 yıl</label>
+            
+            <input type="radio" name="Sektör deneyimi" id="long" value="15- üzeri">
+            <label for="long">15- üzeri</label>
+            <br>
+
+            <label for="language">Programlama Dilleri</label>
+            <select name="programlama dilleri" id="language" size="5">
+
+                <option value="java">java</option>
+                <option value="javascript">javascript</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+                <option value="python">python</option>
+                <option value="react">react</option>
+                <option value="flutter">flutter</option>
+
+            </select>
+
+
+        </fieldset>
+    </div>
+
+
+
+
+
+</form>
+
+</body>
+</html>
