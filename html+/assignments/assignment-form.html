@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><Form</title>
+    <style>
+
+    </style>
 </head>
 <body>
     <header>
         <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
     </header>
 <form action="">
-    <div>
+    <div class="div1">
         <fieldset>
             <legend>Sözleşme Onayı</legend>
             <input type="checkbox" 
@@ -29,27 +32,27 @@
             <legend>Kişisel Bilgiler</legend>
             
             <label for="text1">Form Güvenlik ID</label>
-            <input type="text" id="text1" name="güvenlik id box" placeholder="ID'nizi giriniz...">
-            <br>
+            <input type="text" id="text1" name="güvenlik id box" placeholder="ID'nizi giriniz..." style="position: absolute; left: 10%;">
+            <br><br>
             
             <label for="text2">Ad</label>
-            <input type="text" id="text2" name="isim">
-            <br>
+            <input type="text" id="text2" name="isim"style="position: absolute; left: 10%;">
+            <br ><br>
             
             <label for="text3">Soyad</label>
-            <input type="text" id="text3" name="soyisim">
-            <br>
+            <input type="text" id="text3" name="soyisim"style="position: absolute; left: 10%;">
+            <br><br>
 
             <label for="text4">Yaş</label>
-            <input type="number" id="text4" name="yaş">
-            <br>
+            <input type="number" id="text4" name="yaş"style="position: absolute; left: 10%;">
+            <br><br>
 
             <label for="text5">email</label>
-            <input type="email" id="text5" name="email">
-            <br>
+            <input type="email" id="text5" name="email"style="position: absolute; left: 10%;">
+            <br><br>
 
             <label for="text6">Fotoğraf Ekle</label>
-            <input type="file" value="Dosya Seç" id="text6" name="Eklenen Dosya">
+            <input type="file" value="Dosya Seç" id="text6" name="Eklenen Dosya"style="position: absolute; left: 10%;">
         </fieldset>
     </div>
     <div>
@@ -65,18 +68,21 @@
             <label>Sektör Deneyimi</label>
             <br>
 
-            <input type="radio" name="Sektör deneyimi" id="long" value="1-5 yıl">
-            <label for="long">1-5 yıl</label>
-           
-            <input type="radio" name="Sektör deneyimi" id="long" value="6-10 yıl">
-            <label for="long">6-10 yıl</label>
-           
-            <input type="radio" name="Sektör deneyimi" id="long" value="11-15 yıl">
-            <label for="long">11-15 yıl</label>
-            
-            <input type="radio" name="Sektör deneyimi" id="long" value="15- üzeri">
-            <label for="long">15- üzeri</label>
+            <input type="radio" name="Sektör deneyimi" id="long" value="1-5 yıl" style="position: absolute; left: 10%;">
+            <label for="long" style="position: absolute; left: 11%;">1-5 yıl</label>
             <br>
+           
+            <input type="radio" name="Sektör deneyimi" id="long" value="6-10 yıl" style="position: absolute; left: 10%;">
+            <label for="long" style="position: absolute; left: 11%;">6-10 yıl</label>
+            <br>
+           
+            <input type="radio" name="Sektör deneyimi" id="long" value="11-15 yıl" style="position: absolute; left: 10%;">
+            <label for="long" style="position: absolute; left: 11%;">11-15 yıl</label>
+            <br>
+            
+            <input type="radio" name="Sektör deneyimi" id="long" value="15- üzeri" style="position: absolute; left: 10%;">
+            <label for="long" style="position: absolute; left: 11%;">15- üzeri</label>
+            <br><br><br><br>
 
             <label for="language">Programlama Dilleri</label>
             <select name="programlama dilleri" id="language" size="5">
@@ -96,8 +102,23 @@
         </fieldset>
     </div>
     <div>
+        <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <textarea name="yazı kısmı" id="" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rerum amet iste sequi laborum dignissimos consectetur nobis! Consectetur, impedit nobis est neque illo quis, facilis in similique totam nulla optio eligendi, hic nostrum atque? Voluptatem, error sapiente! Dignissimos corporis sapiente aliquam voluptate? Quam odio quibusdam eos accusamus culpa amet distinctio officia perferendis accusantium. Excepturi consequuntur mollitia est quaerat commodi incidunt quae nam culpa quibusdam molestias! Nesciunt saepe laborum dolor libero vitae dolorum cupiditate, nisi suscipit, necessitatibus fugit velit autem repellendus quibusdam laboriosam labore a praesentium illum. Maxime, nisi repellat! Iste ab voluptate eum debitis possimus quam voluptatem dolor hic nisi.</textarea>
 
-        
+        </fieldset>
+
+    </div>
+    <div>
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="istiyorum">Mail listesine katılmak <b>istiyorum</b> </label>
+            <input type="radio" name="istek" id="istiyorum">
+            <br>
+
+            <label for="istemiyorum">Mail listesine katılmak <b>istemiyorum</b> </label>
+            <input type="radio" name="istek" id="istemiyorum">
+        </fieldset>
     </div>
 
 

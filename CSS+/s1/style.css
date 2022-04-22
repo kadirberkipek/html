@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#box1{
+    border-style: solid dotted;
+    border-width: 10px 20px;
+    border-color: green;
+}
+#box2{
+    border: 5px solid blue;
+    border-radius: 10px 20px;
+}
+box3{
+    border: 5px solid #7e1577;
+    border-bottom-left-radius: 10px;
+}
+
+#box4{
+    background-color: #f202e2;
+    color: #335755;
+}
+
+#box5{
+    color: hsl(240, 100%, 50%);
+    background-color: hsla(240, 100%, 50%, 0.7);
+}
